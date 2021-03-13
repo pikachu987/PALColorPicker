@@ -1,0 +1,13 @@
+use_frameworks!
+
+platform :ios, '9.0'
+
+target 'PALColorPicker_Example' do
+  pod 'PALColorPicker', :path => '../'
+
+  target 'PALColorPicker_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
