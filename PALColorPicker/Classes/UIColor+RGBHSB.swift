@@ -35,15 +35,15 @@ extension UIColor {
         }
     }
 
-    typealias RGB = (red: CGFloat, green: CGFloat, blue: CGFloat, alpha: CGFloat)
-    typealias HSB = (hue: CGFloat, saturation: CGFloat, brightness: CGFloat, alpha: CGFloat)
+    public typealias RGB = (red: CGFloat, green: CGFloat, blue: CGFloat, alpha: CGFloat)
+    public typealias HSB = (hue: CGFloat, saturation: CGFloat, brightness: CGFloat, alpha: CGFloat)
     
     var redValue: CGFloat { return CIColor(color: self).red }
     var greenValue: CGFloat { return CIColor(color: self).green }
     var blueValue: CGFloat { return CIColor(color: self).blue }
     var alphaValue: CGFloat { return CIColor(color: self).alpha }
     
-    var rgb: RGB {
+    public var rgb: RGB {
         var red: CGFloat = 0
         var green: CGFloat = 0
         var blue: CGFloat = 0
@@ -52,7 +52,7 @@ extension UIColor {
         return (red: red, green: green, blue: blue, alpha: alpha)
     }
     
-    var hsb: HSB {
+    public var hsb: HSB {
         var hue: CGFloat = 0
         var saturation: CGFloat = 0
         var brightness: CGFloat = 0
@@ -61,11 +61,11 @@ extension UIColor {
         return (hue: hue, saturation: saturation, brightness: brightness, alpha: alpha)
     }
     
-    convenience init(rgb: RGB) {
+    public convenience init(rgb: RGB) {
         self.init(red: rgb.red, green: rgb.green, blue: rgb.blue, alpha: rgb.alpha)
     }
     
-    convenience init(hsb: HSB) {
+    public convenience init(hsb: HSB) {
         self.init(hue: hsb.hue, saturation: hsb.saturation, brightness: hsb.brightness, alpha: hsb.alpha)
     }
 }
