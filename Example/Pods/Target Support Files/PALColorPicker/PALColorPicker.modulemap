@@ -1,0 +1,6 @@
+framework module PALColorPicker {
+  umbrella header "PALColorPicker-umbrella.h"
+
+  export *
+  module * { export * }
+}

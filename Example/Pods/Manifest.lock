@@ -1,0 +1,16 @@
+PODS:
+  - PALColorPicker (0.1.0)
+
+DEPENDENCIES:
+  - PALColorPicker (from `../`)
+
+EXTERNAL SOURCES:
+  PALColorPicker:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  PALColorPicker: b83f21904a20b1bc5b3d2784fa58843014c8fcc1
+
+PODFILE CHECKSUM: fc769e69260656e8216600bab7f590348cc63103
+
+COCOAPODS: 1.10.1

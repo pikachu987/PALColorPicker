@@ -4,6 +4,8 @@
 [![Version](https://img.shields.io/cocoapods/v/PALColorPicker.svg?style=flat)](https://cocoapods.org/pods/PALColorPicker)
 [![License](https://img.shields.io/cocoapods/l/PALColorPicker.svg?style=flat)](https://cocoapods.org/pods/PALColorPicker)
 [![Platform](https://img.shields.io/cocoapods/p/PALColorPicker.svg?style=flat)](https://cocoapods.org/pods/PALColorPicker)
+[](https://img.shields.io/badge/Supported-iOS9%20%7C%20OSX%2010.9-4BC51D.svg?style=flat-square)
+![](https://img.shields.io/badge/Swift-5.0-orange.svg?style=flat)
 
 ## Example
 

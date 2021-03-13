@@ -1,0 +1,793 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		194B3212B298F8FD012FD32E8C21DAF8 /* PALColorPicker-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = AA66DB97DB9E749303D2732E6E2F775C /* PALColorPicker-dummy.m */; };
+		481D3E969A8F287EC2D387DA3427738C /* PALColorPicker-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 32B5C6351664C98A2495614074DD3DA6 /* PALColorPicker-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		559784297945A11E468D87D015D4C9F7 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		5842BFB256C587913AAD196F7E3022F9 /* Pods-PALColorPicker_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 68C063C3DE7AAE4133D0F813F9561634 /* Pods-PALColorPicker_Tests-dummy.m */; };
+		5CD236694908FB351583527AA3E88457 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		AA74822C5FBE5FCC280B77EAB9A3F4F2 /* Pods-PALColorPicker_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = DC88A66F6522672C31CD1AA51EADE931 /* Pods-PALColorPicker_Example-dummy.m */; };
+		E08CDCE425FC927E00F90E53 /* CAShapeLayer+drawIndicator.swift in Sources */ = {isa = PBXBuildFile; fileRef = E08CDCDE25FC927E00F90E53 /* CAShapeLayer+drawIndicator.swift */; };
+		E08CDCE525FC927E00F90E53 /* ColorPickerBrightnessView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E08CDCDF25FC927E00F90E53 /* ColorPickerBrightnessView.swift */; };
+		E08CDCE625FC927E00F90E53 /* ColorPickerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E08CDCE025FC927E00F90E53 /* ColorPickerView.swift */; };
+		E08CDCE725FC927E00F90E53 /* CALayer+makeContentsWheel.swift in Sources */ = {isa = PBXBuildFile; fileRef = E08CDCE125FC927E00F90E53 /* CALayer+makeContentsWheel.swift */; };
+		E08CDCE825FC927E00F90E53 /* ColorPickerWheelView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E08CDCE225FC927E00F90E53 /* ColorPickerWheelView.swift */; };
+		E08CDCE925FC927E00F90E53 /* UIColor+RGBHSB.swift in Sources */ = {isa = PBXBuildFile; fileRef = E08CDCE325FC927E00F90E53 /* UIColor+RGBHSB.swift */; };
+		E08CDCF625FC93CF00F90E53 /* Extensions+.swift in Sources */ = {isa = PBXBuildFile; fileRef = E08CDCF525FC93CF00F90E53 /* Extensions+.swift */; };
+		E1EED33EDEC77C788E3059A7C3A70551 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		F2BA98864030BF16E0CF94D1D34F551D /* Pods-PALColorPicker_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = A29872FE0CA5CEAAE52E7C1955FDD302 /* Pods-PALColorPicker_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F7AB5B9B6F00B9DF68FD7D55EC9B5950 /* Pods-PALColorPicker_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 388D6F0ECA3F697B97A6B166C33144D1 /* Pods-PALColorPicker_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		ABEFDCFBDB0E0F337D88699209EF3B47 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AABFAC0D93F29329FF7A7A51171E99A7;
+			remoteInfo = PALColorPicker;
+		};
+		B251CD4DCCBCD12993609EA6607E99C8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4E5387C6FB61DF07427EBFFEFABF8336;
+			remoteInfo = "Pods-PALColorPicker_Example";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		05C3C8DC06EDEAD1F15A8EA3A2D0A655 /* PALColorPicker.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = PALColorPicker.modulemap; sourceTree = "<group>"; };
+		22B5A5DEF7CD6F3F8A4D61EF95CEBDD3 /* Pods-PALColorPicker_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-PALColorPicker_Tests-Info.plist"; sourceTree = "<group>"; };
+		24AEAC3F3FBC3ED200A8B000EC0248EB /* PALColorPicker.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = PALColorPicker.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		29B18BAB1A845C83D9AE9808D7738E54 /* Pods-PALColorPicker_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-PALColorPicker_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		2BFA54DED649977D9949DBAB91FDC532 /* Pods-PALColorPicker_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-PALColorPicker_Example-Info.plist"; sourceTree = "<group>"; };
+		32B5C6351664C98A2495614074DD3DA6 /* PALColorPicker-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "PALColorPicker-umbrella.h"; sourceTree = "<group>"; };
+		376ED0BD339D089B77F716121D6D718D /* Pods_PALColorPicker_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PALColorPicker_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		388D6F0ECA3F697B97A6B166C33144D1 /* Pods-PALColorPicker_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-PALColorPicker_Tests-umbrella.h"; sourceTree = "<group>"; };
+		44E63F53937CB98C95497D5E713B04F1 /* PALColorPicker.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = PALColorPicker.release.xcconfig; sourceTree = "<group>"; };
+		4CF877CF749A3025F81F283110200541 /* Pods-PALColorPicker_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-PALColorPicker_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		50210D38FDF7DDCE1432020F4E44108C /* Pods-PALColorPicker_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-PALColorPicker_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		63824D8FD57B6B8E2127D2B2F15BC2DB /* Pods-PALColorPicker_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-PALColorPicker_Example.modulemap"; sourceTree = "<group>"; };
+		68C063C3DE7AAE4133D0F813F9561634 /* Pods-PALColorPicker_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-PALColorPicker_Tests-dummy.m"; sourceTree = "<group>"; };
+		6C9B97B81C1BAC9C676B314F47379428 /* Pods-PALColorPicker_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-PALColorPicker_Example.release.xcconfig"; sourceTree = "<group>"; };
+		73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		78FF7E679A6FDB8518C4AF5CF2F010BA /* PALColorPicker.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = PALColorPicker.debug.xcconfig; sourceTree = "<group>"; };
+		7BD03260F99E27D7F41CD1961A0FD8F5 /* PALColorPicker-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "PALColorPicker-Info.plist"; sourceTree = "<group>"; };
+		7C58E8EB7E8BB1C7DB1E922F8006258F /* Pods-PALColorPicker_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-PALColorPicker_Example-frameworks.sh"; sourceTree = "<group>"; };
+		9D448B2C4241ECDB0188E2AA753D1747 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		A29872FE0CA5CEAAE52E7C1955FDD302 /* Pods-PALColorPicker_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-PALColorPicker_Example-umbrella.h"; sourceTree = "<group>"; };
+		A2F06A0A452670AA005E8E1B1763E34C /* PALColorPicker-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "PALColorPicker-prefix.pch"; sourceTree = "<group>"; };
+		AA66DB97DB9E749303D2732E6E2F775C /* PALColorPicker-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "PALColorPicker-dummy.m"; sourceTree = "<group>"; };
+		BB3D14BF7E6C89721B097A6D4DCB1F09 /* PALColorPicker.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; path = PALColorPicker.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		BED17593C3159A3A3D6AE90295CAE724 /* Pods-PALColorPicker_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-PALColorPicker_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		C75258747B8B9214B356BF5C948727C9 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
+		D53FBAA268B8905CCD28AD0872A2DBF6 /* Pods-PALColorPicker_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-PALColorPicker_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		DC88A66F6522672C31CD1AA51EADE931 /* Pods-PALColorPicker_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-PALColorPicker_Example-dummy.m"; sourceTree = "<group>"; };
+		E08CDCDE25FC927E00F90E53 /* CAShapeLayer+drawIndicator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "CAShapeLayer+drawIndicator.swift"; path = "PALColorPicker/Classes/CAShapeLayer+drawIndicator.swift"; sourceTree = "<group>"; };
+		E08CDCDF25FC927E00F90E53 /* ColorPickerBrightnessView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ColorPickerBrightnessView.swift; path = PALColorPicker/Classes/ColorPickerBrightnessView.swift; sourceTree = "<group>"; };
+		E08CDCE025FC927E00F90E53 /* ColorPickerView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ColorPickerView.swift; path = PALColorPicker/Classes/ColorPickerView.swift; sourceTree = "<group>"; };
+		E08CDCE125FC927E00F90E53 /* CALayer+makeContentsWheel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "CALayer+makeContentsWheel.swift"; path = "PALColorPicker/Classes/CALayer+makeContentsWheel.swift"; sourceTree = "<group>"; };
+		E08CDCE225FC927E00F90E53 /* ColorPickerWheelView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ColorPickerWheelView.swift; path = PALColorPicker/Classes/ColorPickerWheelView.swift; sourceTree = "<group>"; };
+		E08CDCE325FC927E00F90E53 /* UIColor+RGBHSB.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "UIColor+RGBHSB.swift"; path = "PALColorPicker/Classes/UIColor+RGBHSB.swift"; sourceTree = "<group>"; };
+		E08CDCF525FC93CF00F90E53 /* Extensions+.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "Extensions+.swift"; path = "PALColorPicker/Classes/Extensions+.swift"; sourceTree = "<group>"; };
+		F2EFE6979A1FC5A8D2351FF74B0F6710 /* Pods_PALColorPicker_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PALColorPicker_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F38E9C25C55640F81320E5DE6EC5DB98 /* Pods-PALColorPicker_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-PALColorPicker_Tests.modulemap"; sourceTree = "<group>"; };
+		FCF7B702CAB78CF28ADDA3A0B683796A /* Pods-PALColorPicker_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-PALColorPicker_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		FD8D653A8A29C7500F41D75864C83F70 /* Pods-PALColorPicker_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-PALColorPicker_Tests.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		388889ECAEF67DDAD58E29973744DD46 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				559784297945A11E468D87D015D4C9F7 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4745953931EB3D10D6C8E9B8C0EBBDC7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5CD236694908FB351583527AA3E88457 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6C393119B6B1D2D8A9316115E7E19532 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E1EED33EDEC77C788E3059A7C3A70551 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		22A114DC34A3F4AECC28B77CB1ADA6C2 /* Pods-PALColorPicker_Example */ = {
+			isa = PBXGroup;
+			children = (
+				63824D8FD57B6B8E2127D2B2F15BC2DB /* Pods-PALColorPicker_Example.modulemap */,
+				BED17593C3159A3A3D6AE90295CAE724 /* Pods-PALColorPicker_Example-acknowledgements.markdown */,
+				29B18BAB1A845C83D9AE9808D7738E54 /* Pods-PALColorPicker_Example-acknowledgements.plist */,
+				DC88A66F6522672C31CD1AA51EADE931 /* Pods-PALColorPicker_Example-dummy.m */,
+				7C58E8EB7E8BB1C7DB1E922F8006258F /* Pods-PALColorPicker_Example-frameworks.sh */,
+				2BFA54DED649977D9949DBAB91FDC532 /* Pods-PALColorPicker_Example-Info.plist */,
+				A29872FE0CA5CEAAE52E7C1955FDD302 /* Pods-PALColorPicker_Example-umbrella.h */,
+				4CF877CF749A3025F81F283110200541 /* Pods-PALColorPicker_Example.debug.xcconfig */,
+				6C9B97B81C1BAC9C676B314F47379428 /* Pods-PALColorPicker_Example.release.xcconfig */,
+			);
+			name = "Pods-PALColorPicker_Example";
+			path = "Target Support Files/Pods-PALColorPicker_Example";
+			sourceTree = "<group>";
+		};
+		24B437F4A21EB1444E33D6ABC33B9107 /* PALColorPicker */ = {
+			isa = PBXGroup;
+			children = (
+				E08CDCE025FC927E00F90E53 /* ColorPickerView.swift */,
+				E08CDCE225FC927E00F90E53 /* ColorPickerWheelView.swift */,
+				E08CDCDF25FC927E00F90E53 /* ColorPickerBrightnessView.swift */,
+				E08CDCE125FC927E00F90E53 /* CALayer+makeContentsWheel.swift */,
+				E08CDCDE25FC927E00F90E53 /* CAShapeLayer+drawIndicator.swift */,
+				E08CDCE325FC927E00F90E53 /* UIColor+RGBHSB.swift */,
+				E08CDCF525FC93CF00F90E53 /* Extensions+.swift */,
+				6DFEC6B595927DA277136F5BF2E80D4D /* Pod */,
+				56B6C1AC6001626AD4E9FDDB39E967F2 /* Support Files */,
+			);
+			name = PALColorPicker;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		3C6E691A60C01D663FA2DD49CA72A4C1 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				24AEAC3F3FBC3ED200A8B000EC0248EB /* PALColorPicker.framework */,
+				376ED0BD339D089B77F716121D6D718D /* Pods_PALColorPicker_Example.framework */,
+				F2EFE6979A1FC5A8D2351FF74B0F6710 /* Pods_PALColorPicker_Tests.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		56B6C1AC6001626AD4E9FDDB39E967F2 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				05C3C8DC06EDEAD1F15A8EA3A2D0A655 /* PALColorPicker.modulemap */,
+				AA66DB97DB9E749303D2732E6E2F775C /* PALColorPicker-dummy.m */,
+				7BD03260F99E27D7F41CD1961A0FD8F5 /* PALColorPicker-Info.plist */,
+				A2F06A0A452670AA005E8E1B1763E34C /* PALColorPicker-prefix.pch */,
+				32B5C6351664C98A2495614074DD3DA6 /* PALColorPicker-umbrella.h */,
+				78FF7E679A6FDB8518C4AF5CF2F010BA /* PALColorPicker.debug.xcconfig */,
+				44E63F53937CB98C95497D5E713B04F1 /* PALColorPicker.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/PALColorPicker";
+			sourceTree = "<group>";
+		};
+		578452D2E740E91742655AC8F1636D1F /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		5FB879C76ABF250BD7196B729DF59543 /* Pods-PALColorPicker_Tests */ = {
+			isa = PBXGroup;
+			children = (
+				F38E9C25C55640F81320E5DE6EC5DB98 /* Pods-PALColorPicker_Tests.modulemap */,
+				FCF7B702CAB78CF28ADDA3A0B683796A /* Pods-PALColorPicker_Tests-acknowledgements.markdown */,
+				50210D38FDF7DDCE1432020F4E44108C /* Pods-PALColorPicker_Tests-acknowledgements.plist */,
+				68C063C3DE7AAE4133D0F813F9561634 /* Pods-PALColorPicker_Tests-dummy.m */,
+				22B5A5DEF7CD6F3F8A4D61EF95CEBDD3 /* Pods-PALColorPicker_Tests-Info.plist */,
+				388D6F0ECA3F697B97A6B166C33144D1 /* Pods-PALColorPicker_Tests-umbrella.h */,
+				D53FBAA268B8905CCD28AD0872A2DBF6 /* Pods-PALColorPicker_Tests.debug.xcconfig */,
+				FD8D653A8A29C7500F41D75864C83F70 /* Pods-PALColorPicker_Tests.release.xcconfig */,
+			);
+			name = "Pods-PALColorPicker_Tests";
+			path = "Target Support Files/Pods-PALColorPicker_Tests";
+			sourceTree = "<group>";
+		};
+		6DFEC6B595927DA277136F5BF2E80D4D /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				C75258747B8B9214B356BF5C948727C9 /* LICENSE */,
+				BB3D14BF7E6C89721B097A6D4DCB1F09 /* PALColorPicker.podspec */,
+				9D448B2C4241ECDB0188E2AA753D1747 /* README.md */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
+		8F8F12D8D0E06D03A6F8C4343CF51F0F /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				24B437F4A21EB1444E33D6ABC33B9107 /* PALColorPicker */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		C62030B5C11B7A3B8705A4068A05CCB6 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				22A114DC34A3F4AECC28B77CB1ADA6C2 /* Pods-PALColorPicker_Example */,
+				5FB879C76ABF250BD7196B729DF59543 /* Pods-PALColorPicker_Tests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				8F8F12D8D0E06D03A6F8C4343CF51F0F /* Development Pods */,
+				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
+				3C6E691A60C01D663FA2DD49CA72A4C1 /* Products */,
+				C62030B5C11B7A3B8705A4068A05CCB6 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				578452D2E740E91742655AC8F1636D1F /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		0BA35AA3ED6A14A5752C25FB3DB68EEE /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F2BA98864030BF16E0CF94D1D34F551D /* Pods-PALColorPicker_Example-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5CF03C1787F20818F12C5F9D1EA2866B /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				481D3E969A8F287EC2D387DA3427738C /* PALColorPicker-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8E002632F18A23BAB18BFB4D21D852D1 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F7AB5B9B6F00B9DF68FD7D55EC9B5950 /* Pods-PALColorPicker_Tests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		4E5387C6FB61DF07427EBFFEFABF8336 /* Pods-PALColorPicker_Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3B06269F387218C276E7838520C49861 /* Build configuration list for PBXNativeTarget "Pods-PALColorPicker_Example" */;
+			buildPhases = (
+				0BA35AA3ED6A14A5752C25FB3DB68EEE /* Headers */,
+				D7147AE95B4780B5A673104F0A817CCD /* Sources */,
+				388889ECAEF67DDAD58E29973744DD46 /* Frameworks */,
+				6D466D3896B63404EA5549320FF49829 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D6D460CF45A622D4E42F5148F2094C45 /* PBXTargetDependency */,
+			);
+			name = "Pods-PALColorPicker_Example";
+			productName = "Pods-PALColorPicker_Example";
+			productReference = 376ED0BD339D089B77F716121D6D718D /* Pods_PALColorPicker_Example.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		AABFAC0D93F29329FF7A7A51171E99A7 /* PALColorPicker */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 26BD1BB16BB3C9F3B0FD6A6536B751AC /* Build configuration list for PBXNativeTarget "PALColorPicker" */;
+			buildPhases = (
+				5CF03C1787F20818F12C5F9D1EA2866B /* Headers */,
+				527B2002A6E2443975C641A52E934496 /* Sources */,
+				6C393119B6B1D2D8A9316115E7E19532 /* Frameworks */,
+				422C5440C9F3CCFFBBA456832913E9EB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PALColorPicker;
+			productName = PALColorPicker;
+			productReference = 24AEAC3F3FBC3ED200A8B000EC0248EB /* PALColorPicker.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		D58932E277456CCF46CB00A17AA8B45D /* Pods-PALColorPicker_Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DA14557550BAB99240007875BC543AE4 /* Build configuration list for PBXNativeTarget "Pods-PALColorPicker_Tests" */;
+			buildPhases = (
+				8E002632F18A23BAB18BFB4D21D852D1 /* Headers */,
+				5713E2FCD27EBDEE70F088E8E4044DC6 /* Sources */,
+				4745953931EB3D10D6C8E9B8C0EBBDC7 /* Frameworks */,
+				CB5DC75BFB3E337D6C52608EFE8363C9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4D35BC6D97219376D378337B57CABC2B /* PBXTargetDependency */,
+			);
+			name = "Pods-PALColorPicker_Tests";
+			productName = "Pods-PALColorPicker_Tests";
+			productReference = F2EFE6979A1FC5A8D2351FF74B0F6710 /* Pods_PALColorPicker_Tests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1100;
+				LastUpgradeCheck = 1240;
+			};
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			productRefGroup = 3C6E691A60C01D663FA2DD49CA72A4C1 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				AABFAC0D93F29329FF7A7A51171E99A7 /* PALColorPicker */,
+				4E5387C6FB61DF07427EBFFEFABF8336 /* Pods-PALColorPicker_Example */,
+				D58932E277456CCF46CB00A17AA8B45D /* Pods-PALColorPicker_Tests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		422C5440C9F3CCFFBBA456832913E9EB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6D466D3896B63404EA5549320FF49829 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CB5DC75BFB3E337D6C52608EFE8363C9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		527B2002A6E2443975C641A52E934496 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E08CDCE425FC927E00F90E53 /* CAShapeLayer+drawIndicator.swift in Sources */,
+				194B3212B298F8FD012FD32E8C21DAF8 /* PALColorPicker-dummy.m in Sources */,
+				E08CDCE525FC927E00F90E53 /* ColorPickerBrightnessView.swift in Sources */,
+				E08CDCE625FC927E00F90E53 /* ColorPickerView.swift in Sources */,
+				E08CDCE825FC927E00F90E53 /* ColorPickerWheelView.swift in Sources */,
+				E08CDCE725FC927E00F90E53 /* CALayer+makeContentsWheel.swift in Sources */,
+				E08CDCE925FC927E00F90E53 /* UIColor+RGBHSB.swift in Sources */,
+				E08CDCF625FC93CF00F90E53 /* Extensions+.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5713E2FCD27EBDEE70F088E8E4044DC6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5842BFB256C587913AAD196F7E3022F9 /* Pods-PALColorPicker_Tests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D7147AE95B4780B5A673104F0A817CCD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AA74822C5FBE5FCC280B77EAB9A3F4F2 /* Pods-PALColorPicker_Example-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		4D35BC6D97219376D378337B57CABC2B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-PALColorPicker_Example";
+			target = 4E5387C6FB61DF07427EBFFEFABF8336 /* Pods-PALColorPicker_Example */;
+			targetProxy = B251CD4DCCBCD12993609EA6607E99C8 /* PBXContainerItemProxy */;
+		};
+		D6D460CF45A622D4E42F5148F2094C45 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = PALColorPicker;
+			target = AABFAC0D93F29329FF7A7A51171E99A7 /* PALColorPicker */;
+			targetProxy = ABEFDCFBDB0E0F337D88699209EF3B47 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		1E257D7299FFC0C3E4D783F7DD5C630C /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 44E63F53937CB98C95497D5E713B04F1 /* PALColorPicker.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/PALColorPicker/PALColorPicker-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/PALColorPicker/PALColorPicker-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/PALColorPicker/PALColorPicker.modulemap";
+				PRODUCT_MODULE_NAME = PALColorPicker;
+				PRODUCT_NAME = PALColorPicker;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		25AD9454612BF454A1E3DC4CD4FA8C6D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		5CBF0C106DA6E5BFDAC4994721BA5F66 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 78FF7E679A6FDB8518C4AF5CF2F010BA /* PALColorPicker.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/PALColorPicker/PALColorPicker-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/PALColorPicker/PALColorPicker-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/PALColorPicker/PALColorPicker.modulemap";
+				PRODUCT_MODULE_NAME = PALColorPicker;
+				PRODUCT_NAME = PALColorPicker;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		61EA79F10716F41A932726F9CC25F119 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D53FBAA268B8905CCD28AD0872A2DBF6 /* Pods-PALColorPicker_Tests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-PALColorPicker_Tests/Pods-PALColorPicker_Tests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-PALColorPicker_Tests/Pods-PALColorPicker_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		6A3DA48DA835670CEB7EF020F792ACF2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = FD8D653A8A29C7500F41D75864C83F70 /* Pods-PALColorPicker_Tests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-PALColorPicker_Tests/Pods-PALColorPicker_Tests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-PALColorPicker_Tests/Pods-PALColorPicker_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		8189C5056BC49E24CB25DA4515C27545 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6C9B97B81C1BAC9C676B314F47379428 /* Pods-PALColorPicker_Example.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-PALColorPicker_Example/Pods-PALColorPicker_Example-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-PALColorPicker_Example/Pods-PALColorPicker_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		CA547D2C7E9A8A153DC2B27FBE00B112 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		CED6485242B54651352079EA02D092F8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4CF877CF749A3025F81F283110200541 /* Pods-PALColorPicker_Example.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-PALColorPicker_Example/Pods-PALColorPicker_Example-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-PALColorPicker_Example/Pods-PALColorPicker_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		26BD1BB16BB3C9F3B0FD6A6536B751AC /* Build configuration list for PBXNativeTarget "PALColorPicker" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5CBF0C106DA6E5BFDAC4994721BA5F66 /* Debug */,
+				1E257D7299FFC0C3E4D783F7DD5C630C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3B06269F387218C276E7838520C49861 /* Build configuration list for PBXNativeTarget "Pods-PALColorPicker_Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CED6485242B54651352079EA02D092F8 /* Debug */,
+				8189C5056BC49E24CB25DA4515C27545 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				25AD9454612BF454A1E3DC4CD4FA8C6D /* Debug */,
+				CA547D2C7E9A8A153DC2B27FBE00B112 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DA14557550BAB99240007875BC543AE4 /* Build configuration list for PBXNativeTarget "Pods-PALColorPicker_Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				61EA79F10716F41A932726F9CC25F119 /* Debug */,
+				6A3DA48DA835670CEB7EF020F792ACF2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+}

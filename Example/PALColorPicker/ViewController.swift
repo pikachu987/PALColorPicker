@@ -7,12 +7,18 @@
 //
 
 import UIKit
+import PALColorPicker
 
 class ViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
+        
+        let view = ColorPickerView(frame: CGRect(x: 20, y: 100, width: UIScreen.main.bounds.width - 40, height: 400))
+        view.tintColor = .green
+        self.view.addSubview(view)
+        
     }
 
     override func didReceiveMemoryWarning() {
@@ -21,4 +27,3 @@ class ViewController: UIViewController {
     }
 
 }
-
