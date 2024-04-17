@@ -18,27 +18,9 @@
 //OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
 //THE SOFTWARE.
 
-import UIKit
+import Foundation
 
-extension CAShapeLayer {
-    func drawCircleIndicator(_ point: CGPoint?, color: UIColor, radius: CGFloat) {
-        guard let point = point else { return }
-        let path = UIBezierPath(
-            roundedRect: CGRect(
-                x: point.x - radius,
-                y: point.y - radius,
-                width: radius * 2,
-                height: radius * 2),
-            cornerRadius: radius)
-        self.path = path.cgPath
-        self.fillColor = color.cgColor
-    }
-    
-    func drawRoundRectIndicator(_ point: CGPoint?) {
-        guard let point = point else { return }
-        let path = UIBezierPath(
-            roundedRect: CGRect(x: point.x-3, y: 0, width: 6, height: ColorPickerBrightnessView.height),
-            cornerRadius: 3)
-        self.path = path.cgPath
-    }
+public enum ColorPaletteType {
+    case circle
+    case rectangle(hueHorizontal: Bool)
 }

@@ -38,10 +38,10 @@ extension UIColor {
     public typealias RGB = (red: CGFloat, green: CGFloat, blue: CGFloat, alpha: CGFloat)
     public typealias HSB = (hue: CGFloat, saturation: CGFloat, brightness: CGFloat, alpha: CGFloat)
     
-    var redValue: CGFloat { return CIColor(color: self).red }
-    var greenValue: CGFloat { return CIColor(color: self).green }
-    var blueValue: CGFloat { return CIColor(color: self).blue }
-    var alphaValue: CGFloat { return CIColor(color: self).alpha }
+    var redValue: CGFloat { CIColor(color: self).red }
+    var greenValue: CGFloat { CIColor(color: self).green }
+    var blueValue: CGFloat { CIColor(color: self).blue }
+    var alphaValue: CGFloat { CIColor(color: self).alpha }
     
     public var rgb: RGB {
         var red: CGFloat = 0

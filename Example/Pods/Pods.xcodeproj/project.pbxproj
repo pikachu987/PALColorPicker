@@ -13,11 +13,14 @@
 		5842BFB256C587913AAD196F7E3022F9 /* Pods-PALColorPicker_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 68C063C3DE7AAE4133D0F813F9561634 /* Pods-PALColorPicker_Tests-dummy.m */; };
 		5CD236694908FB351583527AA3E88457 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
 		AA74822C5FBE5FCC280B77EAB9A3F4F2 /* Pods-PALColorPicker_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = DC88A66F6522672C31CD1AA51EADE931 /* Pods-PALColorPicker_Example-dummy.m */; };
+		CEE373CD2BCE9E8E00CBCBF6 /* ColorCirclePaletteControl.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEE373CC2BCE9E8E00CBCBF6 /* ColorCirclePaletteControl.swift */; };
+		CEE373CF2BCEE3C500CBCBF6 /* ColorPaletteControl.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEE373CE2BCEE3C500CBCBF6 /* ColorPaletteControl.swift */; };
+		CEE373D12BCEE42F00CBCBF6 /* ColorPaletteType.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEE373D02BCEE42F00CBCBF6 /* ColorPaletteType.swift */; };
 		E08CDCE425FC927E00F90E53 /* CAShapeLayer+drawIndicator.swift in Sources */ = {isa = PBXBuildFile; fileRef = E08CDCDE25FC927E00F90E53 /* CAShapeLayer+drawIndicator.swift */; };
-		E08CDCE525FC927E00F90E53 /* ColorPickerBrightnessView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E08CDCDF25FC927E00F90E53 /* ColorPickerBrightnessView.swift */; };
+		E08CDCE525FC927E00F90E53 /* ColorBrightnessView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E08CDCDF25FC927E00F90E53 /* ColorBrightnessView.swift */; };
 		E08CDCE625FC927E00F90E53 /* ColorPickerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E08CDCE025FC927E00F90E53 /* ColorPickerView.swift */; };
-		E08CDCE725FC927E00F90E53 /* CALayer+makeContentsWheel.swift in Sources */ = {isa = PBXBuildFile; fileRef = E08CDCE125FC927E00F90E53 /* CALayer+makeContentsWheel.swift */; };
-		E08CDCE825FC927E00F90E53 /* ColorPickerWheelView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E08CDCE225FC927E00F90E53 /* ColorPickerWheelView.swift */; };
+		E08CDCE725FC927E00F90E53 /* ColorRectanglePaletteControl.swift in Sources */ = {isa = PBXBuildFile; fileRef = E08CDCE125FC927E00F90E53 /* ColorRectanglePaletteControl.swift */; };
+		E08CDCE825FC927E00F90E53 /* ColorPaletteView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E08CDCE225FC927E00F90E53 /* ColorPaletteView.swift */; };
 		E08CDCE925FC927E00F90E53 /* UIColor+RGBHSB.swift in Sources */ = {isa = PBXBuildFile; fileRef = E08CDCE325FC927E00F90E53 /* UIColor+RGBHSB.swift */; };
 		E08CDCF625FC93CF00F90E53 /* Extensions+.swift in Sources */ = {isa = PBXBuildFile; fileRef = E08CDCF525FC93CF00F90E53 /* Extensions+.swift */; };
 		E1EED33EDEC77C788E3059A7C3A70551 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
@@ -69,15 +72,18 @@
 		BB3D14BF7E6C89721B097A6D4DCB1F09 /* PALColorPicker.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; path = PALColorPicker.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		BED17593C3159A3A3D6AE90295CAE724 /* Pods-PALColorPicker_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-PALColorPicker_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
 		C75258747B8B9214B356BF5C948727C9 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
+		CEE373CC2BCE9E8E00CBCBF6 /* ColorCirclePaletteControl.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorCirclePaletteControl.swift; sourceTree = "<group>"; };
+		CEE373CE2BCEE3C500CBCBF6 /* ColorPaletteControl.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorPaletteControl.swift; sourceTree = "<group>"; };
+		CEE373D02BCEE42F00CBCBF6 /* ColorPaletteType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorPaletteType.swift; sourceTree = "<group>"; };
 		D53FBAA268B8905CCD28AD0872A2DBF6 /* Pods-PALColorPicker_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-PALColorPicker_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		DC88A66F6522672C31CD1AA51EADE931 /* Pods-PALColorPicker_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-PALColorPicker_Example-dummy.m"; sourceTree = "<group>"; };
-		E08CDCDE25FC927E00F90E53 /* CAShapeLayer+drawIndicator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "CAShapeLayer+drawIndicator.swift"; path = "PALColorPicker/Classes/CAShapeLayer+drawIndicator.swift"; sourceTree = "<group>"; };
-		E08CDCDF25FC927E00F90E53 /* ColorPickerBrightnessView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ColorPickerBrightnessView.swift; path = PALColorPicker/Classes/ColorPickerBrightnessView.swift; sourceTree = "<group>"; };
+		E08CDCDE25FC927E00F90E53 /* CAShapeLayer+drawIndicator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "CAShapeLayer+drawIndicator.swift"; sourceTree = "<group>"; };
+		E08CDCDF25FC927E00F90E53 /* ColorBrightnessView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ColorBrightnessView.swift; sourceTree = "<group>"; };
 		E08CDCE025FC927E00F90E53 /* ColorPickerView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ColorPickerView.swift; path = PALColorPicker/Classes/ColorPickerView.swift; sourceTree = "<group>"; };
-		E08CDCE125FC927E00F90E53 /* CALayer+makeContentsWheel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "CALayer+makeContentsWheel.swift"; path = "PALColorPicker/Classes/CALayer+makeContentsWheel.swift"; sourceTree = "<group>"; };
-		E08CDCE225FC927E00F90E53 /* ColorPickerWheelView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ColorPickerWheelView.swift; path = PALColorPicker/Classes/ColorPickerWheelView.swift; sourceTree = "<group>"; };
-		E08CDCE325FC927E00F90E53 /* UIColor+RGBHSB.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "UIColor+RGBHSB.swift"; path = "PALColorPicker/Classes/UIColor+RGBHSB.swift"; sourceTree = "<group>"; };
-		E08CDCF525FC93CF00F90E53 /* Extensions+.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "Extensions+.swift"; path = "PALColorPicker/Classes/Extensions+.swift"; sourceTree = "<group>"; };
+		E08CDCE125FC927E00F90E53 /* ColorRectanglePaletteControl.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ColorRectanglePaletteControl.swift; sourceTree = "<group>"; };
+		E08CDCE225FC927E00F90E53 /* ColorPaletteView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ColorPaletteView.swift; sourceTree = "<group>"; };
+		E08CDCE325FC927E00F90E53 /* UIColor+RGBHSB.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIColor+RGBHSB.swift"; sourceTree = "<group>"; };
+		E08CDCF525FC93CF00F90E53 /* Extensions+.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Extensions+.swift"; sourceTree = "<group>"; };
 		F2EFE6979A1FC5A8D2351FF74B0F6710 /* Pods_PALColorPicker_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PALColorPicker_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		F38E9C25C55640F81320E5DE6EC5DB98 /* Pods-PALColorPicker_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-PALColorPicker_Tests.modulemap"; sourceTree = "<group>"; };
 		FCF7B702CAB78CF28ADDA3A0B683796A /* Pods-PALColorPicker_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-PALColorPicker_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
@@ -133,12 +139,9 @@
 			isa = PBXGroup;
 			children = (
 				E08CDCE025FC927E00F90E53 /* ColorPickerView.swift */,
-				E08CDCE225FC927E00F90E53 /* ColorPickerWheelView.swift */,
-				E08CDCDF25FC927E00F90E53 /* ColorPickerBrightnessView.swift */,
-				E08CDCE125FC927E00F90E53 /* CALayer+makeContentsWheel.swift */,
-				E08CDCDE25FC927E00F90E53 /* CAShapeLayer+drawIndicator.swift */,
-				E08CDCE325FC927E00F90E53 /* UIColor+RGBHSB.swift */,
-				E08CDCF525FC93CF00F90E53 /* Extensions+.swift */,
+				CEE373D32BCEE51A00CBCBF6 /* Palette */,
+				CEE373D42BCEE53600CBCBF6 /* Brightness */,
+				CEE373D52BCEE54C00CBCBF6 /* Extensions */,
 				6DFEC6B595927DA277136F5BF2E80D4D /* Pod */,
 				56B6C1AC6001626AD4E9FDDB39E967F2 /* Support Files */,
 			);
@@ -220,6 +223,39 @@
 				5FB879C76ABF250BD7196B729DF59543 /* Pods-PALColorPicker_Tests */,
 			);
 			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		CEE373D32BCEE51A00CBCBF6 /* Palette */ = {
+			isa = PBXGroup;
+			children = (
+				CEE373D02BCEE42F00CBCBF6 /* ColorPaletteType.swift */,
+				E08CDCE225FC927E00F90E53 /* ColorPaletteView.swift */,
+				CEE373CE2BCEE3C500CBCBF6 /* ColorPaletteControl.swift */,
+				CEE373CC2BCE9E8E00CBCBF6 /* ColorCirclePaletteControl.swift */,
+				E08CDCE125FC927E00F90E53 /* ColorRectanglePaletteControl.swift */,
+			);
+			name = Palette;
+			path = PALColorPicker/Classes/Palette;
+			sourceTree = "<group>";
+		};
+		CEE373D42BCEE53600CBCBF6 /* Brightness */ = {
+			isa = PBXGroup;
+			children = (
+				E08CDCDF25FC927E00F90E53 /* ColorBrightnessView.swift */,
+			);
+			name = Brightness;
+			path = PALColorPicker/Classes/Brightness;
+			sourceTree = "<group>";
+		};
+		CEE373D52BCEE54C00CBCBF6 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				E08CDCDE25FC927E00F90E53 /* CAShapeLayer+drawIndicator.swift */,
+				E08CDCE325FC927E00F90E53 /* UIColor+RGBHSB.swift */,
+				E08CDCF525FC93CF00F90E53 /* Extensions+.swift */,
+			);
+			name = Extensions;
+			path = PALColorPicker/Classes/Extensions;
 			sourceTree = "<group>";
 		};
 		CF1408CF629C7361332E53B88F7BD30C = {
@@ -387,12 +423,15 @@
 			files = (
 				E08CDCE425FC927E00F90E53 /* CAShapeLayer+drawIndicator.swift in Sources */,
 				194B3212B298F8FD012FD32E8C21DAF8 /* PALColorPicker-dummy.m in Sources */,
-				E08CDCE525FC927E00F90E53 /* ColorPickerBrightnessView.swift in Sources */,
+				E08CDCE525FC927E00F90E53 /* ColorBrightnessView.swift in Sources */,
 				E08CDCE625FC927E00F90E53 /* ColorPickerView.swift in Sources */,
-				E08CDCE825FC927E00F90E53 /* ColorPickerWheelView.swift in Sources */,
-				E08CDCE725FC927E00F90E53 /* CALayer+makeContentsWheel.swift in Sources */,
+				E08CDCE825FC927E00F90E53 /* ColorPaletteView.swift in Sources */,
+				E08CDCE725FC927E00F90E53 /* ColorRectanglePaletteControl.swift in Sources */,
 				E08CDCE925FC927E00F90E53 /* UIColor+RGBHSB.swift in Sources */,
+				CEE373CD2BCE9E8E00CBCBF6 /* ColorCirclePaletteControl.swift in Sources */,
+				CEE373D12BCEE42F00CBCBF6 /* ColorPaletteType.swift in Sources */,
 				E08CDCF625FC93CF00F90E53 /* Extensions+.swift in Sources */,
+				CEE373CF2BCEE3C500CBCBF6 /* ColorPaletteControl.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
