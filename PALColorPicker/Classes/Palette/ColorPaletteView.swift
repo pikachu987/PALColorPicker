@@ -137,10 +137,11 @@ extension ColorPaletteView {
         brightnessLayer.path = paletteControl.brightnessPath.cgPath
         if let changeColorWhereBeforeSetupBound = changeColorWhereBeforeSetupBound {
             updateColor(changeColorWhereBeforeSetupBound)
+            self.changeColorWhereBeforeSetupBound = nil
         } else {
             point = paletteControl.initializePoint
+            updateIndicatorRadius()
         }
-        updateIndicatorRadius()
         delegate?.colorPaletteView(self, color: color)
     }
 
@@ -167,6 +168,7 @@ extension ColorPaletteView {
     private func updateColor(_ color: UIColor) {
         let hsb = color.hsb
         point = paletteControl.point(hue: hsb.hue, saturation: hsb.saturation)
+        updateIndicatorRadius()
         brightnessLayer.fillColor = UIColor(white: 0, alpha: 1.0 - hsb.brightness).cgColor
     }
 }
